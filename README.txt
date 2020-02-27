@@ -33,3 +33,7 @@ I have tried to implement MVC architecture in the code sepearting Models (src\cl
 1) Index page displays product cataloge, delivery charges and offers.
 2) "Add to Basket" button which take Product code and other details as parameter.
 3) "Go to Cart" link at the top of the page to get the details and the total of the basket.
+
+**Not Implemented**
+----------------------------------------
+1) Error and success messages.
