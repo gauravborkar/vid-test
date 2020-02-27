@@ -1,0 +1,525 @@
+/***************************************************
+* Main Style: Photo Gallery Website
+* Author: Eyob Tariku
+* Company Name: Zigzag Studio
+* Written Date: 2016 April 01
+* Version: 1.0
+* Last Updated: -
+* Description: 
+******************/
+/**** Form validation error *******/
+
+label.error:before {
+	content: "* ";
+}
+
+label.error {
+    color: #d43f3a !important;
+    font-style: italic;
+}
+
+
+.em {
+	font-style: italic;
+}
+
+.sm {
+	font-size: 12px;
+}
+
+.xs {
+	font-size: 10px;
+}
+
+.borderless tr td {
+	border: none !important;
+	padding: 0.8em 0 !important;
+}
+
+
+.notSeen {
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+/** clearfix ***/
+.clearfix:after, .clearfix:before {
+	content: "";
+	display: table;
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+.message {
+	color: deeppink;
+	font-size: 1.2em;
+	font-family: Courier, monospace;
+	font-weight: bold;
+	line-height: 2;
+}
+
+
+.shade {
+	color: #888 !important;
+}
+
+.shadeLink {
+	color: #888 !important;
+}
+
+.shadeLink:hover {
+	color: #333 !important;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.errorMsg {
+	font-weight: bold;
+	color: #555;
+	padding: 10px;
+	margin: 10px 0;
+	background-color: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	border-left: 5px solid #d9534f;
+}
+
+.errorMsg li {
+	list-style-type: square;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+span.fa-external-link {
+	font-size: 10px;
+}
+
+.subheadings {
+	margin-bottom: 20px;
+}
+
+.subheadings.text-right {
+	margin-right: 5px;
+}
+
+/* #pageNav ul.nav {
+	margin-left: 280px;
+} */
+
+hr {
+	border-color: #ccc;
+}
+
+body {
+	position: relative;
+	background: #efefef;
+}
+
+#main {
+	min-height: 500px !important;
+}
+
+.mainContainer {
+	min-height: 280px;
+}
+
+h1#pageTitle > a {
+	color: #f0ad4e !important;
+	font-family: Verdana;
+	font-weight: bolder;
+	font-size: 0.9em;
+}
+
+.navbar-default {
+	width: 100%;
+	min-height: 80px;
+	border-radius: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	border-top: 1px solid silver;
+	border-bottom: 1px solid silver;
+	background: #fff;
+	z-index: 999;
+}
+
+
+#primaryLinks {
+	position: absolute;
+	left: 34%;
+	overflow: auto;
+}
+
+.shortcuts {
+	margin-top: 0 !important;
+	padding: 0 !important;
+}
+
+.shortcuts li.dropdown {
+	margin-top: 25px;
+	font-size: 16px;
+}
+
+.shortcuts li.dropdown button {
+	border: none;
+	background: transparent;
+}
+
+.shortcuts li.dropdown button span.glyphicon {
+	color: #555;
+}
+
+.shortcuts li.dropdown a {
+	font-weight: normal;
+}
+
+.shortcuts li.dropdown li.dropdown-header {
+	font-weight: bold;
+	font-size: 13px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.shortcuts .hiddenLabel {
+	display: none;
+}
+
+ul.navbar-nav {
+	padding-top: 10px;
+}
+
+ul.navbar-nav li a {
+	font-weight: bold;
+}
+
+ul.navbar-nav li.active a {
+	background: transparent !important;
+	border-bottom: 2px solid orange;
+	color: orange !important;
+}
+
+ul.navbar-nav li.active {
+	background: transparent;
+}
+
+.navbar-brand {
+	color: #f0ad4e !important;
+	font-family: Verdana;
+	font-weight: bolder;
+	font-size: 20px;
+	padding-top: 1.4em;
+}
+
+.navbar-logo {
+	height: auto !important;
+	max-width: 170px !important;
+}
+
+.homePage .navbar-brand, .homePage .shortcuts {
+	display: none;
+}
+
+#topNav a {
+	color: #888 !important;
+	font-size: 12px;
+}
+
+#misc {
+	margin-bottom: 0;
+	margin-top: 40px;
+}
+
+#logoText h1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0;
+	line-height: 0.9em;
+}
+
+#pageHeader h2.small {
+	font-size: 14px;
+	color: #888;
+	text-decoration: overline;
+	margin-top: 0 !important;	
+	padding-top: 0;
+}
+
+#pageHeader div.row {
+	margin-bottom: 0 !important;
+}
+
+.pageBanner {
+	padding: 150px 0 160px;
+	background-image: url('../images/banner.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 4px solid #ccc;
+}
+
+.pageBanner input[type="search"] {
+	height: 46px;
+	font-size: 16px;
+}
+
+.pageBanner span.input-group-btn .btn {
+	padding: 12px 16px;
+}
+
+.preview {
+	width: 100%;
+	height: 180px;
+	border-bottom: 4px solid #ccc;
+}
+
+.featured .panel-body h4 {
+	margin-top: 5px;
+}
+
+.featured .panel-body {
+	padding-top: 5px;
+}
+
+.featured .panel {
+	border: 1px solid grey;
+	background: transparent;
+}
+
+.featured .panel-body h4 a {
+	color: orange;
+}
+
+#pageFooter {
+	background: #333;
+	padding-top: 30px;
+	border-top: 2px solid grey;
+	min-height: 200px;
+	color: silver;
+	font-size: 12px;
+}
+
+.footerLinks li {
+	margin-bottom: 4px;
+}
+
+.footerLinks a {
+	color: silver;
+}
+
+.footerLinks a:hover {
+	color: #fff;
+}
+
+.footerLinks #currencyForm select.form-control {
+	width: 160px;
+	margin-right: 14px;
+}
+
+div.copyright {
+	margin-top: 30px;
+}
+
+.sticky {
+	margin-top: 0;
+}
+
+.productContainer {
+	box-shadow: 0px 0px 4px 1px silver;
+	border: 1px solid #ccc;
+	padding: 27px;
+}
+
+/* .product:first-child {
+	position: relative;
+	max-width: 	260px;
+} */
+
+.product h2 {
+	font-size: 14px;
+	color: orange;
+	font-weight: bold;
+	text-align: center;
+	margin: 5px 0 !important;
+}
+.pricelabel
+{
+    width: 71px;
+    padding: 7px;
+}
+.box 
+{
+    border: 1px solid;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
+/*** helper Class ***/
+.m-0{
+	margin:0px;
+}
+.mt-10{
+	margin-top: 10px;
+}
+.ml-15{
+	margin-left: 15px;
+}
+
+.mb-30{
+	margin-bottom: 30px;	
+}
+.mb-15{
+	margin-bottom: 15px;
+}
+
+
+
+
+/*** bootstrap media images ***/
+.cart {
+	background-color: #ccc;
+	padding: 10px 5px;
+	border: 1px solid #777;
+	border-radius: 5px;
+
+}
+
+.media-body  {
+	position: relative;
+}
+
+.media-footer ul {
+	position: absolute;
+	bottom: 20px;
+}
+
+.media-footer ul li {
+	font-size: 12px;
+	margin-right: 30px;
+	color: #333;
+}
+
+.media-footer ul li span.glyphicon {
+	margin-right: 5px;
+}
+
+.media-list li.media > a {
+	color: inherit;
+	cursor: pointer;
+}
+
+/********* Breadcrumb *******************/
+.breadcrumb {
+	border-radius: 0 0 5px 5px;
+	border: 0.4px solid #ccc;
+	border-top: none;
+}
+
+.breadcrumb > li.active {
+	font-weight: bold;
+}
+
+/********** Cart.php *******************/
+.cartTable {
+	border-collapse: separate;
+	border-spacing: 0 10px;
+	empty-cells: show;
+}
+
+.cartTable thead tr  th {
+	border: none;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-indent: 20px;
+	color: #f0ad4e;
+}
+
+.cartTable td{
+	padding: 10px;
+	background-color: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	border-spacing: 20px 0 !important;
+	text-indent: 20px;
+	background-color: #f0ad4e;
+	color: #fff;
+	font-weight: bold;
+}
+
+.cartTable tbody tr {
+	background-color: transparent;
+	border-left: 4px solid #f0ad4e;
+}
+
+.cartTable .actionRow {
+	background: transparent !important;
+	border: none;
+	box-shadow: none;
+	text-align: left !important;
+	text-indent: 5px;
+}
+
+.cartTable .actionRow span.fa {
+	padding: 0;
+	font-size: 20px;
+}
+
+.cartTable .actionRow span.fa:hover {
+	color: #F81B46;
+}
+
+.cartTable tfoot td {
+	padding: 12px !important;
+	font-weight: bold;
+	background-color: #fff;
+	color: #333;
+}
+
+
+@media only screen and (max-width: 768px){
+	#pageNav ul.nav {
+		margin-left: 0;
+	}
+
+	.navbar-default {
+		min-height: 60px;
+	}
+
+	#primaryLinks {
+		position: relative;
+		display: block;
+		float: left;
+		overflow: hidden;
+		padding: 0;
+	}
+
+	.navbar-brand {
+		font-size: 16px;
+	}
+
+	.shortcuts {
+		display: block !important;
+		float: left;
+		clear:both;
+		margin-top: 5px;
+		margin-left: 140px !important;
+	}
+
+	.shortcuts li {
+		display: inline;
+		float: left;
+	}
+
+	.shortcuts .hiddenLabel {
+		display: inline;
+		font-size: 13px;
+	}
+
+
+	ul.nav li {
+		text-align: center;
+	}
+}
