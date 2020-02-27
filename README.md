@@ -27,3 +27,9 @@ I have tried to implement MVC architecture in the code sepearting Models (src\cl
     <?php include_once('layout/head.layout.php'); ?>    -- Head layout of the page.
 5) Generate a controller under src\controller and include that in src\route.php.
 6) Generate a layout page under public\layout folder.
+
+**Task implemented**
+----------------------------------------
+1) Index page displays product cataloge, delivery charges and offers.
+2) "Add to Basket" button which take Product code and other details as parameter.
+3) "Go to Cart" link at the top of the page to get the details and the total of the basket.
